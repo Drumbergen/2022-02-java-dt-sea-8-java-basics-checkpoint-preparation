@@ -10,6 +10,8 @@ public abstract class ITPerson {
 
     public String getName() {
         return this.name;
+        // wieso nicht return name;
+        
     }
 
     public void setName(String name) {

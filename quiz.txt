@@ -1,29 +1,29 @@
 Q: What is the default branch of a git repository called?
-A:
+A:main (alt master)
 
 Q: How do you change branches using git?
-A:
+A:git checkout <branchname>
 
 Q: What is the command that allows you to create a local repository from a remote repository?
-A:
+A:git clone <url>
 
 Q: How do you check the status of the working directory of the local repository?
-A:
+A:git status
 
 Q: What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
-A:
+A:add; commit; push
 
 Q: What is the value of the expression (true && false)?
-A:
+A: false
 
 Q: How can you write `i = i + 1` more concisely?
-A:
+A: i++
 
 Q: What does the term "concatenation" mean?
-A:
+A: Verbinden oder Aneinaderfügen z.B. von Strings
 
 Q: Why is the check for "equals" with (object == object) not reliable? What should you use for check of equal objects?
-A:
+A: Weil die Referenc nicht gleich ist nur der inhalt deswegen eine methode equals()
 
 Q: What Collection implementation is ordered, but not sorted?
 A:
@@ -32,13 +32,13 @@ Q: What Collection implementation has only unique elements?
 A:
 
 Q: How can we find out the number of elements of an array named "students"?
-A:
+A: students.size()
 
 Q: How can we find out the number of elements of a list named "students"?
-A:
+A: students.size()
 
 Q: In Java, what happens if I divide by Zero (eg. 8 / 0)?
-A:
+A: Das hängt vom Datentyp ab und ist abzufangen.
 
 Q: How can you check if File quiz = new File("quiz.txt") exists?
 A:
@@ -50,10 +50,10 @@ Q: What is the signature of the `main` method of a class?
 A:
 
 Q: What is an instance of a class?
-A:
+A: Objekt
 
 Q: Which naming rule should you apply to the naming of a class?
-A:
+A: Begin mit Großen Buchstaben selber name für Class und Datei
 
 Q: Why should the usage of java.util.Date be avoided?
 A:
@@ -62,4 +62,4 @@ Q: What Java class do you use to store the Date "31.10.2021"?
 A:
 
 Q: What is the advantage of using Generics?
-A:
+A: Beliebiger Inhalt
